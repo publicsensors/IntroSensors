@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Copyright Daniel Gr\"unbaum 2021
@@ -99,7 +100,11 @@
 %}
 
 \usepackage{scrhack}
-
+\usepackage{microtype}
+%Wes additions
+\usepackage{siunitx}
+\usepackage{nicematrix}
+\usepackage{booktabs}
 
 \newcommand{\loadMilestone}[1]{ % define command to load milestones
 	\ExecuteMetaData[Chapters/Milestones]{#1} % call the package macro to load chunk from file
@@ -129,6 +134,13 @@
 \makenomenclature % Make LaTeX produce the files required to compile the nomenclature
 
 %----------------------------------------------------------------------------------------
+
+%\includeonly{
+%  FESshortcuts, 
+%  Chapters/Preface,
+%  Chapters/Introduction,
+%  Chapters/DigitalSensors
+% }
 
 \begin{document}
 % Shortcuts are now centralized in their own tex file:
