@@ -1,0 +1,3 @@
+[submodule "Codes/Sensors"]
+	path = Codes/Sensors
+	url = https://github.com/publicsensors/Sensors
